@@ -152,7 +152,7 @@
             app:layout_constraintBottom_toTopOf="@+id/timer_text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:text="@{gameViewModel.wordHint}"/>
+            android:text="@{gameViewModel.wordHint}" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
